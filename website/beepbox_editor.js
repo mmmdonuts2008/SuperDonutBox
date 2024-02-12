@@ -2278,7 +2278,7 @@ var beepbox = (function (exports) {
     ColorConfig.usesColorFormula = false;
     ColorConfig.themes = {
 		"SuperDonutBox": `
-			:root
+			:root {
 				--page-margin: #17001f; 
 				--editor-background: #1c001c; 
 				--hover-preview: white; 
@@ -2411,7 +2411,7 @@ var beepbox = (function (exports) {
 					--disabled-note-secondary: #666; 
 		        }
 			`,		
-		"dark classic": `
+		"dark SuperDonutBox": `
 			:root {
 				--page-margin: #17001f; 
 				--editor-background: #1c001c; 
