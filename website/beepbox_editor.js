@@ -2409,8 +2409,6 @@ var beepbox = (function (exports) {
 			--mod-label-primary-text: #000000; 
 			--disabled-note-primary: #999; 
 			--disabled-note-secondary: #666; 
-			--note-flash: #c7c7c7; 
-			--note-flash-secondary: #808080; 
 		        }
 			`,		
 		"dark classic": `
