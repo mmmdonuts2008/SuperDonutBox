@@ -2413,25 +2413,24 @@ var beepbox = (function (exports) {
 			`,		
 		"dark classic": `
 			:root {
-				--page-margin: black;
-				--editor-background: black;
-				--hover-preview: white;
-				--playhead: white;
-				--primary-text: white;
-				--secondary-text: #999;
-				--inverted-text: black;
-				--text-selection: rgba(119,68,255,0.99);
-				--box-selection-fill: rgba(255,255,255,0.2);
-				--loop-accent: #74f;
-				--link-accent: #98f;
-				--ui-widget-background: #444;
-				--ui-widget-focus: #777;
-				--pitch-background: #444;
-				--tonic: #864;
-				--fifth-note: #468;
-				--white-piano-key: #bbb;
-				--black-piano-key: #444;
-				--white-piano-key-text: #131200;
+				--page-margin: #17001f; 
+				--editor-background: #1c001c; 
+				--hover-preview: white; 
+				--playhead: white; 
+				--primary-text: #bf00ff; 
+				--secondary-text: #8800ff; 
+				--inverted-text: #51008b; 
+				--text-selection: rgba(119,68,255,0.99); 
+				--box-selection-fill: rgba(255,255,255,0.2); 
+				--loop-accent: #0000ff; --link-accent: #00eaff; 
+				--ui-widget-background: #20003f; 
+				--ui-widget-focus: #410052; 
+				--pitch-background: #001457; 
+				--tonic: #8c00ff; 
+				--fifth-note: #e600ff; 
+				--white-piano-key: #abf0ff; 
+				--black-piano-key: #3a5c63; 
+				--white-piano-key-text: #131200; 
 				--black-piano-key-text: #fff;
 					--use-color-formula: false;
 					--track-editor-bg-pitch: #444;
@@ -2508,7 +2507,7 @@ var beepbox = (function (exports) {
 				--noise5-primary-channel:   #A2BB77;
 				--noise5-secondary-note:    #91AA66;
 				--noise5-primary-note:      #C5E2B2;
-          --mod1-secondary-channel:   #339955;
+			--mod1-secondary-channel:   #339955;
 					--mod1-primary-channel:     #77fc55;
 					--mod1-secondary-note:      #77ff8a;
 					--mod1-primary-note:        #cdffee;
@@ -2523,12 +2522,27 @@ var beepbox = (function (exports) {
 					--mod4-secondary-channel:   #a86436;
 					--mod4-primary-channel:     #c8a825;
 					--mod4-secondary-note:      #e8ba46;
-					--mod4-primary-note:        #fff6d3;
-					--mod-label-primary:        #999;
-					--mod-label-secondary-text: #333;
-					--mod-label-primary-text:   black;
-					--disabled-note-primary:    #999;
-					--disabled-note-secondary:  #666;
+					--mod4-primary-note:        #fff6d3; 
+					--use-color-formula: false; 
+					--track-editor-bg-pitch: #2e005c; 
+					--track-editor-bg-pitch-dim: #000000;
+					--track-editor-bg-noise: #0a0076; 
+					--track-editor-bg-noise-dim: #000000; 
+					--track-editor-bg-mod: #007099; 
+					--track-editor-bg-mod-dim: #000000; 
+					--multiplicative-mod-slider: #a600ff; 
+					--overwriting-mod-slider: #2600ff; 
+					--indicator-primary: #00ffe6; 
+					--indicator-secondary: #444; 
+					--select2-opt-group: #c4000000; 
+					--input-box-outline: #6300e6; 
+					--mute-button-normal: #8c00ff; 
+					--mute-button-mod: #2600ff; 
+					--mod-label-primary: #999; 
+					--mod-label-secondary-text: #46004e; 
+					--mod-label-primary-text: #000000; 
+					--disabled-note-primary: #999; 
+					--disabled-note-secondary: #666;
 				}
 			`,
         "dark competition": `
